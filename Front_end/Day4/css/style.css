@@ -1,0 +1,64 @@
+body {
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+section {
+    display: table;
+    width: 100%;
+    height: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+section h1 {
+    font-size: 50px;
+    text-shadow: 4px 4px #455a64;
+}
+.section-up {
+    background: #90a4ae;
+}
+.section-mid {
+    background: #78909c;
+}
+.section-down {
+    background: #607d8b;
+}
+.wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+.wrap h3 {
+    font-size: 24px;
+}
+img {
+    border-radius: 50%;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    line-height: 40px;
+    font-size: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li a:link {
+    text-shadow: 2px 2px #455a64;
+}
+ul li a:visited {
+    text-shadow: 2px 2px #455a64,
+        3px 3px #37474f,
+        4px 4px #263238,
+        -2px -2px #424242;
+}
+ul li a:hover {
+    text-shadow: 2px 2px #455a64,
+        3px 3px #37474f;
+}
+ul li a:active {
+    text-shadow: 2px 2px #455a64,
+        3px 3px #37474f,
+        4px 4px #263238;
+}
