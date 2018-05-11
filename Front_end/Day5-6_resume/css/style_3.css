@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 80%;
+    margin: 10px auto;
+}
+main > header {
+    background: #888;
+    color: #fff;
+    padding-left: 20px;
+}
+main header h1 {
+    font-size: 18px;
+    line-height: 3;
+}
+section {
+    display: flex;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+section header {
+    width: 10%;
+    background: #ddd;
+}
+section header h2 {
+    font-size: 16px;
+    line-height: 100px;
+    text-align: center;
+}
+section ul,
+section > div {
+    margin: 10px;
+}
+section .info {
+    font-weight: 600;
+    padding-right: 10px;
+}
+section div p {
+    display: inline-block;
+    line-height: 1.4;
+}
+section ul {
+    list-style: none;
+}
+section ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+section ul li a:link {
+    color: #3deaf0;
+}
+section ul li a:visited {
+    color: #f0f;
+}
+section ul li a:hover {
+    color: #00ff37;
+}
+section ul li a:active {
+    color: #f52003;
+}

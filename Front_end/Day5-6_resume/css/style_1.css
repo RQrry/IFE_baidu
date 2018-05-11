@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+}
+main header h1 {
+    line-height: 2.4;
+}
+section h2 {
+    line-height: 2;
+}
+section .info {
+    font-weight: 600;
+    padding-right: 10px;
+}
+section ul {
+    list-style: none;
+    line-height: 2;
+}
+section ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+section ul li a:link {
+    color: #3deaf0;
+}
+section ul li a:visited {
+    color: #f0f;
+}
+section ul li a:hover {
+    color: #00ff37;
+}
+section ul li a:active {
+    color: #f52003;
+}
+section div .info {
+    margin-top: 10px;
+}
+section div p {
+    line-height: 1.4;
+}
