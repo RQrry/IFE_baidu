@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1,
+.left,
+.right {
+    text-align: center;
+}
+h1 {
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
+}
+.left {
+    width: 200px;
+    height: 200px;
+    background: #fffb15;
+}
+.right {
+    width: calc(100% - 200px);
+    height: 200px;
+    background: #31e720;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.float_demo .left {
+    float: left;
+}
+.float_demo .right {
+    float: left;
+}
+.position_demo {
+    position: relative;
+    height: 240px;
+}
+.position_demo .left {
+    position: absolute;
+    left: 0;
+}
+.position_demo .right {
+    position: absolute;
+    right: 0;
+}
+.flexbox_demo > div{
+    display: flex;
+}
