@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+nav ul {
+   list-style: none;
+   font-size: 0;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 16px;
+}
+nav ul li a {
+    display: inline-block;
+    color: #000;
+}
+header {
+    height: 60px;
+    color: #fff;
+    background: #343535;
+}
+header .logo {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 60px;
+}
+header nav {
+    float: right;
+    margin-top: 5px;
+}
+header nav ul li a {
+    color: #fff;
+    margin-left: 10px;
+}
+.banner {
+    height: 250px;
+    background: #3bbe42;
+}
+.banner .wrapper {
+    position: relative;
+}
+.banner .wrapper nav {
+    position: absolute;
+    right: 0;
+    top: 200px;
+}
+.banner .wrapper nav ul li a {
+    text-decoration: none;
+    width: 20px;
+    text-align: center;
+    background: #a7e094;
+    border: 1px solid #000;
+    margin-left: 5px;
+}
+.banner .wrapper nav ul li .active {
+    background: #e0f2d3;
+    padding-top: 15px; 
+}
+section {
+    margin: 10px 0;
+}
+section hr {
+    border: 0.5px solid #e1dfda;
+    margin-bottom: 5px;
+}
+section nav ul li a {
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #efeeec;
+    border: 1px solid #e1dfda;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+}
+section nav ul li .active {
+    background: #fff;
+    position: relative;
+}
+section nav ul li .active:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+}
+section .content > div {
+    display: flex;
+}
+section .content > div > div {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #d0ccc7;
+    padding: 80px 0;
+    margin: 5px;
+}
+section .content > div > div:first-child {
+    margin-left: 0;
+}
+section .content > div >div:last-child {
+    margin-right: 0;
+}
+footer {
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    background: #666460;
+    padding: 20px;
+}
