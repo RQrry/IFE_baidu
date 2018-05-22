@@ -62,3 +62,21 @@ ul li a:active {
         3px 3px #37474f,
         4px 4px #263238;
 }
+#name {
+    display: none;
+}
+#button {
+    text-align: center;
+}
+#button button {
+    width: 160px;
+    height: 66px;
+    line-height: 66px;
+    font-size: 28px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #455a64;
+    color: #fff;
+    background: rgba(69, 90, 100, .6);
+    cursor: pointer;
+}
