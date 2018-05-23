@@ -25,3 +25,6 @@
 
 **Day12-15**
 * [复杂页面实现](https://rqrry.github.io/IFE_baidu/Front_end/Day12-15/index.html)
+
+**Day16**
+* [加减乘除](https://rqrry.github.io/IFE_baidu/Front_end/Day16/index.html)
