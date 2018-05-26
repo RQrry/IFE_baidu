@@ -28,3 +28,10 @@
 
 **Day16**
 * [加减乘除](https://rqrry.github.io/IFE_baidu/Front_end/Day16/index.html)
+
+**Day17-18**
+* [练习](https://rqrry.github.io/IFE_baidu/Front_end/Day17-18/index.html)
+* [傻瓜故事生成器](https://rqrry.github.io/IFE_baidu/Front_end/Day17-18/StoryGenerator.html)
+* [猜数字](https://rqrry.github.io/IFE_baidu/Front_end/Day17-18/GuessNumber.html)
+* [随机色块](https://rqrry.github.io/IFE_baidu/Front_end/Day17-18/eTarget.html)
+* [画廊](https://rqrry.github.io/IFE_baidu/Front_end/Day17-18/ImageGallery.html)
