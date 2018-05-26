@@ -35,3 +35,11 @@
 * [猜数字](https://rqrry.github.io/IFE_baidu/Front_end/Day17-18/GuessNumber.html)
 * [随机色块](https://rqrry.github.io/IFE_baidu/Front_end/Day17-18/eTarget.html)
 * [画廊](https://rqrry.github.io/IFE_baidu/Front_end/Day17-18/ImageGallery.html)
+
+**Day19**
+
+DOM练习在控制台查看结果
+* [DOM document.getElementBy](https://rqrry.github.io/IFE_baidu/Front_end/Day19/index1.html)
+* [DOM document.querySelector](https://rqrry.github.io/IFE_baidu/Front_end/Day19/index2.html)
+* [购物清单](https://rqrry.github.io/IFE_baidu/Front_end/Day19/shoppingList.html)
+
