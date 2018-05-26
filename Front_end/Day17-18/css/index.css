@@ -1,0 +1,13 @@
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+.container > div {
+    margin: 40px 0;
+}
+#resultPass3 {
+    width: inherit;
+    height: 100px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
