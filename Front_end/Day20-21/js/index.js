@@ -111,14 +111,18 @@ function fadeIn() {
 
 // 练习5
 var img = document.getElementById("img");
-var posY = [-1, -481, -961, -1441, -1921, -2401, -2881, -3361, -3841, -4321, -4801, -5281, -5761, -6241, -6721, -7201, -7681];
-var index = 0;
+var posY = 479;
+var index = true;
 
 function run() {
-    img.style.backgroundPositionY = posY[index] + "px";
-    index++;
-    if(index >= posY.length) {
-        index = 0;
+    posY = index ? posY - 480 : posY + 480;
+    console.log(index,posY);
+    if(posY === -7681) {
+        index = false;
+    } 
+    if(posY === -1) {
+        index = true;
     }
+    img.style.backgroundPositionY = posY + "px";
 }
 setInterval(run, 100);
