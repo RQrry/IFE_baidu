@@ -90,7 +90,7 @@ function fadeOut() {
     fadeBtn.disabled = true;
     t1 = setTimeout(fadeOut, 100);
     fadeObj.style.opacity = op.toString();
-    console.log(op);
+    // console.log(op);
     if(op < 0) {
         clearTimeout(t1);
         fadeBtn.disabled =false;
@@ -101,7 +101,7 @@ function fadeIn() {
     op += .1;
     fadeBtn.disabled = true;
     fadeObj.style.opacity = op.toString();
-    console.log(op);
+    // console.log(op);
     if(op > 1) {
         clearInterval(t2);
         fadeBtn.disabled = false;
@@ -116,7 +116,7 @@ var index = true;
 
 function run() {
     posY = index ? posY - 480 : posY + 480;
-    console.log(index,posY);
+    // console.log(index,posY);
     if(posY === -7681) {
         index = false;
     } 
