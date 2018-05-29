@@ -43,3 +43,5 @@ DOM练习在控制台查看结果
 * [DOM document.querySelector](https://rqrry.github.io/IFE_baidu/Front_end/Day19/index2.html)
 * [购物清单](https://rqrry.github.io/IFE_baidu/Front_end/Day19/shoppingList.html)
 
+**Day20-21**
+* [和页面对话](https://rqrry.github.io/IFE_baidu/Front_end/Day20-21/index.html)
