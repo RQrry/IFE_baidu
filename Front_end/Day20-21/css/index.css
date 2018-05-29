@@ -1,0 +1,48 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* 练习2 */
+select {
+    display: none;
+}
+.selectActive {
+    display: block;
+}
+
+
+/* 练习3 */
+.palette {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+.palette li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+
+/* 练习4 */
+#fade-obj {
+    width: 300px;
+    height: 300px;
+    background: #000;
+}
+
+
+/* 练习5 */
+#img {
+    width: 480px;
+    height: 480px;
+    background-image: url(../images/erik_ce204002.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -1px;
+}
