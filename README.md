@@ -45,3 +45,6 @@ DOM练习在控制台查看结果
 
 **Day20-21**
 * [和页面对话](https://rqrry.github.io/IFE_baidu/Front_end/Day20-21/index.html)
+
+**Day22-24**
+* [JavaScript里面的居民们](https://rqrry.github.io/IFE_baidu/Front_end/Day22-24/index.html)
