@@ -777,7 +777,19 @@ var menuArr = [
     [7, "Area1-2-3", 4],
     [8, "Area2-2-1", 6],
 ];
-var menuObject = {};
+var menuObject = {0:{}};
+for(var i=0; i<menuArr.length; i++) {
+    menuObject[menuArr[i][0]] = {'name': menuArr[i][1]};
+    if(menuArr[i][2] == -1) {
+        menuObject[0][menuArr[i][0]] = menuObject[menuArr[i][0]];
+    } else {
+        if(menuObject[menuArr[i][2]]['subMenu']) {
+            menuObject[menuArr[i][2]]['subMenu'][menuArr[i][0]] = menuObject[menuArr[i][0]]; 
+        } else {
+            menuObject[menuArr[i][2]]['subMenu'] = {};
+            menuObject[menuArr[i][2]]['subMenu'][menuArr[i][0]] = menuObject[menuArr[i][0]];
+        }                   
+    }
+}
 console.log("数组转对象：");
-console.log(menuObject);
-// 未完成
+console.log(menuObject[0]);
