@@ -767,6 +767,7 @@ console.log(scoreArray);
 /*
 数组转对象
 */
+// 借鉴同学代码
 var menuArr = [
     [1, "Area1", -1],
     [2, "Area2", -1],
