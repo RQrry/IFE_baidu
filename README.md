@@ -48,3 +48,6 @@ DOM练习在控制台查看结果
 
 **Day22-24**
 * [JavaScript里面的居民们](https://rqrry.github.io/IFE_baidu/Front_end/Day22-24/index.html)
+
+**Day22-24**
+* [倒数开始](https://rqrry.github.io/IFE_baidu/Front_end/Day25-27/index.html)
