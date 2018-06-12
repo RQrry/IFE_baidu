@@ -51,3 +51,6 @@ DOM练习在控制台查看结果
 
 **Day25-27**
 * [倒数开始](https://rqrry.github.io/IFE_baidu/Front_end/Day25-27/index.html)
+
+**Day28-30**
+* [给爱的人发个邮件吧](https://rqrry.github.io/IFE_baidu/Front_end/Day28-30/index.html)
