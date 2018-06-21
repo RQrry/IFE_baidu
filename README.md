@@ -54,3 +54,6 @@ DOM练习在控制台查看结果
 
 **Day28-30**
 * [给爱的人发个邮件吧](https://rqrry.github.io/IFE_baidu/Front_end/Day28-30/index.html)
+
+**Day31-33**
+* [我是精明的小卖家（一）](https://rqrry.github.io/IFE_baidu/Front_end/Day31-33/v2/index.html)

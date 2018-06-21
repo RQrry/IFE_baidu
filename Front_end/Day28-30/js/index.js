@@ -7,7 +7,7 @@ input.focus();
 
 // onclick
 wrapper.onclick = function(e) {
-    var e = e.event || window.event;
+    var e = e || window.event;
     var target = e.target || e.srcElement;
     if(target.nodeName.toLowerCase() === "li") {
         let content = target.innerHTML;

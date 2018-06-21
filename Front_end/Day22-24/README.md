@@ -124,9 +124,24 @@ function compare(a, b) {
     // a must be equal to b
     return 0;
 }
-
+```
+```
 // 数字升序排序
 function compareNumbers(a, b) {
   return a - b;
+}
+
+sort((a,b) => a - b);
+```
+对象数组排序
+```
+function compare(property) {
+    return function(a,b) {
+        var value1 = a[property];
+        var value2 = b[property];
+        if(value1 > value2) return 1;
+        if(value1 < value2) return -1;
+        return 0;
+    }
 }
 ```
