@@ -1,0 +1,15 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+#table-wrapper {
+    margin-top: 20px;
+}
+#table-wrapper table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table, tr, th, td {
+    border: 1px solid gray;
+}
